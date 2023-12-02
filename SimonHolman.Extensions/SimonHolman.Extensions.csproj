@@ -1,7 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+	<PropertyGroup>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Simon Holman Extension Methods</Title>
+		<Company>Simon Holman Dev</Company>
+		<Authors>Simon Holman</Authors>
+		<Description>Random extentions methods that I use.</Description>
+		<Copyright>Simon Holman</Copyright>
+		<PackageProjectUrl>https://simonholman.dev</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/simonholmandev/SimonHolman.Extensions</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseFile>license.txt</PackageLicenseFile>
+		<AssemblyVersion>1.0.2</AssemblyVersion>
+		<Version>1.0.2</Version>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="readme.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="license.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 </Project>
