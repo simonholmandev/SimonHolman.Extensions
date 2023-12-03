@@ -15,8 +15,8 @@
 		<RepositoryUrl>https://github.com/simonholmandev/SimonHolman.Extensions</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseFile>license.txt</PackageLicenseFile>
-		<AssemblyVersion>1.0.2</AssemblyVersion>
-		<Version>1.0.2</Version>
+		<AssemblyVersion>1.0.3</AssemblyVersion>
+		<Version>1.0.3</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
